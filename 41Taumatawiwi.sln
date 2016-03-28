@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{76A7C93A-CEAE-494F-BAB3-853124A738EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{170C04D7-465D-4F73-966A-0A0EBA3126F7}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "41Taumatawiwi", "src\41Taumatawiwi\41Taumatawiwi.xproj", "{867029CF-743C-40B7-B48F-D5F4C17C997D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "41Taumatawiwi.Tests", "41Taumatawiwi.Tests\41Taumatawiwi.Tests.csproj", "{5381B2D8-8298-4E6C-A277-8CF789831BE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{867029CF-743C-40B7-B48F-D5F4C17C997D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{867029CF-743C-40B7-B48F-D5F4C17C997D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{867029CF-743C-40B7-B48F-D5F4C17C997D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{867029CF-743C-40B7-B48F-D5F4C17C997D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5381B2D8-8298-4E6C-A277-8CF789831BE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5381B2D8-8298-4E6C-A277-8CF789831BE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5381B2D8-8298-4E6C-A277-8CF789831BE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5381B2D8-8298-4E6C-A277-8CF789831BE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{867029CF-743C-40B7-B48F-D5F4C17C997D} = {76A7C93A-CEAE-494F-BAB3-853124A738EB}
+		{5381B2D8-8298-4E6C-A277-8CF789831BE1} = {76A7C93A-CEAE-494F-BAB3-853124A738EB}
+	EndGlobalSection
+EndGlobal
