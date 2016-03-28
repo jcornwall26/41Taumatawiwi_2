@@ -12,7 +12,7 @@ namespace _41Taumatawiwi.Controllers
     {
         // GET: /<controller>/
         public IActionResult Index()
-        { 
+        {
             return View();
         }
     }
