@@ -8,5 +8,11 @@ namespace _41Taumatawiwi.Core.Repositories
 {
     public class GoogleBlogRepository
     {
+        //private const apiKey
+
+        public void Connect()
+        {
+
+        }
     }
 }
