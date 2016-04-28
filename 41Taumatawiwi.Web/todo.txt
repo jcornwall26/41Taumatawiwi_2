@@ -1,4 +1,5 @@
-﻿reduce image sizes
+﻿injection!
+reduce image sizes
 bundling & minification
 autostart
 suppress not complete menu items

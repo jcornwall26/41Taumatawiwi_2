@@ -1,4 +1,5 @@
-﻿using System.Web.Mvc;
+﻿using _41Taumatawiwi.Core.Repositories.Instagram;
+using System.Web.Mvc;
 
 namespace _41Taumatawiwi.Controllers
 {
@@ -7,7 +8,11 @@ namespace _41Taumatawiwi.Controllers
         // GET: /<controller>/
         public ActionResult Index()
         {
-            return View();
+            var imageRepo = new InstagramPhotoRepository();
+
+            var images = imageRepo.GetAll();
+
+            return View(images);
         }
     }
 }
