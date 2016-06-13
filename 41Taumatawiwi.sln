@@ -10,8 +10,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		global.json = global.json
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "41Taumatawiwi.Tests", "41Taumatawiwi.Tests\41Taumatawiwi.Tests.csproj", "{5381B2D8-8298-4E6C-A277-8CF789831BE1}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "41Taumatawiwi.Core", "41Taumatawiwi.Core\41Taumatawiwi.Core.csproj", "{EFC6626E-8B86-4A37-970E-2F3EF8429C4F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "41Taumatawiwi.Domain", "41Taumatawiwi.Domain\41Taumatawiwi.Domain.csproj", "{81BD81CE-2A82-4C40-9825-53AE81D873A5}"
@@ -24,10 +22,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5381B2D8-8298-4E6C-A277-8CF789831BE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5381B2D8-8298-4E6C-A277-8CF789831BE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5381B2D8-8298-4E6C-A277-8CF789831BE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5381B2D8-8298-4E6C-A277-8CF789831BE1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EFC6626E-8B86-4A37-970E-2F3EF8429C4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EFC6626E-8B86-4A37-970E-2F3EF8429C4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFC6626E-8B86-4A37-970E-2F3EF8429C4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,7 +39,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{5381B2D8-8298-4E6C-A277-8CF789831BE1} = {76A7C93A-CEAE-494F-BAB3-853124A738EB}
 		{EFC6626E-8B86-4A37-970E-2F3EF8429C4F} = {76A7C93A-CEAE-494F-BAB3-853124A738EB}
 		{81BD81CE-2A82-4C40-9825-53AE81D873A5} = {76A7C93A-CEAE-494F-BAB3-853124A738EB}
 		{9AA2D2AA-BDCF-408E-8F74-AE78B9373A3B} = {76A7C93A-CEAE-494F-BAB3-853124A738EB}
